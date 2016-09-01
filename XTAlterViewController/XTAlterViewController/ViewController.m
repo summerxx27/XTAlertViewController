@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "XTAlterController/XTAlterViewController.h"
-@interface ViewController ()
+#import "XTAlterController/XTAlertView.h"
+@interface ViewController ()<XTAlertControllerDelegate>
 
 @end
 
@@ -17,12 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"aaa.jpg"]];
-    NSArray *titles = @[@"Show Alter", @"Show Alter 3 Butttons"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
+    NSArray *titles = @[@"Show Alter", @"Show Alter Though 3 Butttons"];
     for (int i = 0; i < 2; i ++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(0, 300 + 50 * i, self.view.frame.size.width, 50);
-        btn.backgroundColor = [UIColor orangeColor];
+        btn.backgroundColor = [UIColor colorWithRed:0.2216 green:0.8117 blue:1.0 alpha:1.0];
         [btn setTitle:titles[i] forState:UIControlStateNormal];
         [self.view addSubview:btn];
         btn.tag = 100 + i;
@@ -36,24 +36,48 @@
     switch (tag) {
         case 100:
         {
-            XTAlterViewController *xt = [[XTAlterViewController alloc] init];
-            
-            [xt initWithImage:@"aaa.jpg" imageHeight:100 title:@"title" btnTitles:@[@"Cancel", @"Allow"] des:@"Enables access to your location: discover what you can do when you're traveling and what is available near you." style:AlterDouble];
-            
+            XTAlertViewController *xt = [[XTAlertViewController alloc] init];
+            [xt initWithImage:@"flag" imageHeight:0 title:@"Locate your device" btnTitles:@[@"Cancel", @"Determine"] des:@"Enables access to your location: discover what you can do when you're traveling and what is available near you." style:AlterDefault];
             [self presentViewController:xt animated:YES completion:^{
-                //
+                
             }];
         }
             break;
         case 101:
         {
-            
+            XTAlertViewController *xt = [[XTAlertViewController alloc] init];
+            [xt initWithImage:@"flag" imageHeight:200 title:@"Locate your device" btnTitles:@[@"Cancel", @"Determine", @"summerxx"] des:@"Enables access to your location: discover what you can do when you're traveling and what is available near you." style:AlterDouble];
+            xt.delegate = self;
+            [self presentViewController:xt animated:YES completion:^{
+                
+            }];
         }
         default:
             break;
     }
 }
-
+- (void)xt_alertViewControllerClickIndex:(NSInteger)buttonIndex
+{
+ 
+    switch (buttonIndex) {
+        case 0:
+            NSLog(@"0");
+            NSLog(@"Cancel");
+            break;
+        case 1:
+            NSLog(@"1");
+            NSLog(@"Determine");
+            break;
+        case 2:
+            NSLog(@"2");
+            NSLog(@"summerxx");
+            break;
+        
+        
+        default:
+            break;
+    }
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
