@@ -46,7 +46,7 @@
         case 101:
         {
             XTAlertViewController *xt = [[XTAlertViewController alloc] init];
-            [xt initWithImage:@"summerxx" imageHeight:0 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"summerxx"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlterDouble];
+            [xt initWithImage:@"summerxx" imageHeight:200 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"summerxx"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlterDouble];
             xt.delegate = self;
             [self presentViewController:xt animated:YES completion:^{
                 

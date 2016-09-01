@@ -1,7 +1,7 @@
 ## XTAlertView
 
 
-Meaning is to create a more versions compatible with similar to UIAlertView controls
+preface: Meaning is to create a more versions compatible with similar to UIAlertView controls
 pic example:
 <table border="1">
 <tr>
@@ -19,6 +19,19 @@ Gif example:
 <td><img src="http://ww4.sinaimg.cn/large/e6a4355cgw1f7e3tdz4uug208w0gnkjp.gif" width="200" height="300"></td>
 </tr>
 </table>
+
+### Advantages
+
+- iOS 7.0 available after
+- Header Image (optional)
+- Title, des (optional)
+- Low coupling (present new controller)
+- Animation with UIKit Dynamics
+
+### Features
+
+- Provide the expansion of the more interesting and powerful features
+
 #### like this
 ```objectivec
         // init obj
