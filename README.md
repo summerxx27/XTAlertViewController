@@ -12,10 +12,6 @@ pic example:
 </tr>
 </table>
 
-![](http://ww4.sinaimg.cn/large/e6a4355cgw1f7e3c2t0mvj20jz0zkmyk.jpg)
-![](http://ww1.sinaimg.cn/large/e6a4355cgw1f7e3cv8mv8j20ku112js8.jpg)
-![](http://ww3.sinaimg.cn/large/e6a4355cgw1f7e3d0ucy1j20ku112jsm.jpg)
-![](http://ww2.sinaimg.cn/large/e6a4355cgw1f7e3d5z1hbj20jz0zkmxx.jpg)
 
 Gif example:
 
