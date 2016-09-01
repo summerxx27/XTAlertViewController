@@ -37,7 +37,7 @@
         case 100:
         {
             XTAlertViewController *xt = [[XTAlertViewController alloc] init];
-            [xt initWithImage:@"flag" imageHeight:0 title:@"Locate your device" btnTitles:@[@"Cancel", @"Determine"] des:@"Enables access to your location: discover what you can do when you're traveling and what is available near you." style:AlterDefault];
+            [xt initWithImage:@"summerxx" imageHeight:0 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlterDefault];
             [self presentViewController:xt animated:YES completion:^{
                 
             }];
@@ -46,7 +46,7 @@
         case 101:
         {
             XTAlertViewController *xt = [[XTAlertViewController alloc] init];
-            [xt initWithImage:@"flag" imageHeight:200 title:@"Locate your device" btnTitles:@[@"Cancel", @"Determine", @"summerxx"] des:@"Enables access to your location: discover what you can do when you're traveling and what is available near you." style:AlterDouble];
+            [xt initWithImage:@"summerxx" imageHeight:200 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"summerxx"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlterDouble];
             xt.delegate = self;
             [self presentViewController:xt animated:YES completion:^{
                 

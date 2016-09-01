@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BCCBF6531D77CDAB00DACEA4 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCBF6521D77CDAB00DACEA4 /* flag.png */; };
+		BCCBF6571D7801D000DACEA4 /* summerxx.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCBF6561D7801D000DACEA4 /* summerxx.png */; };
 		BCD919EB1D7678AB009646A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD919EA1D7678AB009646A6 /* main.m */; };
 		BCD919EE1D7678AB009646A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD919ED1D7678AB009646A6 /* AppDelegate.m */; };
 		BCD919F11D7678AB009646A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD919F01D7678AB009646A6 /* ViewController.m */; };
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BCCBF6521D77CDAB00DACEA4 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 		BCCBF6551D77FCCF00DACEA4 /* XTAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTAlertView.h; sourceTree = "<group>"; };
+		BCCBF6561D7801D000DACEA4 /* summerxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summerxx.png; sourceTree = "<group>"; };
 		BCD919E61D7678AA009646A6 /* XTAlterViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTAlterViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD919EA1D7678AB009646A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCD919EC1D7678AB009646A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 				BCD919F01D7678AB009646A6 /* ViewController.m */,
 				BCD919F21D7678AB009646A6 /* Main.storyboard */,
 				BCD919F51D7678AB009646A6 /* Assets.xcassets */,
-				BCCBF6521D77CDAB00DACEA4 /* flag.png */,
+				BCCBF6561D7801D000DACEA4 /* summerxx.png */,
 				BCD919F71D7678AB009646A6 /* LaunchScreen.storyboard */,
 				BCD919FA1D7678AB009646A6 /* Info.plist */,
 				BCD919E91D7678AB009646A6 /* Supporting Files */,
@@ -271,8 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCBF6571D7801D000DACEA4 /* summerxx.png in Resources */,
 				BCD919F91D7678AB009646A6 /* LaunchScreen.storyboard in Resources */,
-				BCCBF6531D77CDAB00DACEA4 /* flag.png in Resources */,
 				BCD919F61D7678AB009646A6 /* Assets.xcassets in Resources */,
 				BCD919F41D7678AB009646A6 /* Main.storyboard in Resources */,
 			);
