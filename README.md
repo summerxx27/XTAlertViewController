@@ -1,5 +1,3 @@
-## XTAlertViewController
-
 <div align=center>
 <img src="http://ww1.sinaimg.cn/large/e6a4355cgw1f7e5n20i3gj20n5054q3r.jpg"/>
 </div>
