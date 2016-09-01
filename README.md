@@ -12,9 +12,13 @@ pic example:
 </tr>
 </table>
 
-
 Gif example:
-
+<table border="1">
+<tr>
+<td><img src="http://ww4.sinaimg.cn/large/e6a4355cgw1f7e3sxauntg208w0gs4qq.gif" width="200" height="300"></td>
+<td><img src="http://ww4.sinaimg.cn/large/e6a4355cgw1f7e3tdz4uug208w0gnkjp.gif" width="200" height="300"></td>
+</tr>
+</table>
 #### like this
 ```objectivec
         // init obj
