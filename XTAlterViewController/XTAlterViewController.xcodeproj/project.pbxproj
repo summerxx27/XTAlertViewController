@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCCBF6531D77CDAB00DACEA4 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCBF6521D77CDAB00DACEA4 /* flag.png */; };
 		BCD919EB1D7678AB009646A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD919EA1D7678AB009646A6 /* main.m */; };
 		BCD919EE1D7678AB009646A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD919ED1D7678AB009646A6 /* AppDelegate.m */; };
 		BCD919F11D7678AB009646A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD919F01D7678AB009646A6 /* ViewController.m */; };
@@ -15,10 +16,9 @@
 		BCD919F91D7678AB009646A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD919F71D7678AB009646A6 /* LaunchScreen.storyboard */; };
 		BCD91A041D7678AB009646A6 /* XTAlterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A031D7678AB009646A6 /* XTAlterViewControllerTests.m */; };
 		BCD91A0F1D7678AB009646A6 /* XTAlterViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A0E1D7678AB009646A6 /* XTAlterViewControllerUITests.m */; };
-		BCD91A1F1D7678ED009646A6 /* XTAlterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A1E1D7678ED009646A6 /* XTAlterViewController.m */; };
-		BCD91A211D769DA6009646A6 /* aaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD91A201D769DA6009646A6 /* aaa.jpg */; };
+		BCD91A1F1D7678ED009646A6 /* XTAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A1E1D7678ED009646A6 /* XTAlertViewController.m */; };
 		BCD91A241D76B227009646A6 /* XTCalculateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A231D76B227009646A6 /* XTCalculateHeight.m */; };
-		BCD91A301D76DEAD009646A6 /* XTDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A2F1D76DEAD009646A6 /* XTDefaultCell.m */; };
+		BCD91A301D76DEAD009646A6 /* XTAlterStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD91A2F1D76DEAD009646A6 /* XTAlterStyleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCCBF6521D77CDAB00DACEA4 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		BCCBF6551D77FCCF00DACEA4 /* XTAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTAlertView.h; sourceTree = "<group>"; };
 		BCD919E61D7678AA009646A6 /* XTAlterViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTAlterViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD919EA1D7678AB009646A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCD919EC1D7678AB009646A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,13 +57,12 @@
 		BCD91A0A1D7678AB009646A6 /* XTAlterViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTAlterViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD91A0E1D7678AB009646A6 /* XTAlterViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTAlterViewControllerUITests.m; sourceTree = "<group>"; };
 		BCD91A101D7678AB009646A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCD91A1D1D7678ED009646A6 /* XTAlterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlterViewController.h; sourceTree = "<group>"; };
-		BCD91A1E1D7678ED009646A6 /* XTAlterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlterViewController.m; sourceTree = "<group>"; };
-		BCD91A201D769DA6009646A6 /* aaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaa.jpg; sourceTree = "<group>"; };
+		BCD91A1D1D7678ED009646A6 /* XTAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertViewController.h; sourceTree = "<group>"; };
+		BCD91A1E1D7678ED009646A6 /* XTAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlertViewController.m; sourceTree = "<group>"; };
 		BCD91A221D76B227009646A6 /* XTCalculateHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCalculateHeight.h; sourceTree = "<group>"; };
 		BCD91A231D76B227009646A6 /* XTCalculateHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCalculateHeight.m; sourceTree = "<group>"; };
-		BCD91A2E1D76DEAD009646A6 /* XTDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTDefaultCell.h; sourceTree = "<group>"; };
-		BCD91A2F1D76DEAD009646A6 /* XTDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTDefaultCell.m; sourceTree = "<group>"; };
+		BCD91A2E1D76DEAD009646A6 /* XTAlterStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlterStyleView.h; sourceTree = "<group>"; };
+		BCD91A2F1D76DEAD009646A6 /* XTAlterStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlterStyleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +116,11 @@
 				BCD91A1C1D7678D1009646A6 /* XTAlterController */,
 				BCD919EC1D7678AB009646A6 /* AppDelegate.h */,
 				BCD919ED1D7678AB009646A6 /* AppDelegate.m */,
-				BCD91A201D769DA6009646A6 /* aaa.jpg */,
 				BCD919EF1D7678AB009646A6 /* ViewController.h */,
 				BCD919F01D7678AB009646A6 /* ViewController.m */,
 				BCD919F21D7678AB009646A6 /* Main.storyboard */,
 				BCD919F51D7678AB009646A6 /* Assets.xcassets */,
+				BCCBF6521D77CDAB00DACEA4 /* flag.png */,
 				BCD919F71D7678AB009646A6 /* LaunchScreen.storyboard */,
 				BCD919FA1D7678AB009646A6 /* Info.plist */,
 				BCD919E91D7678AB009646A6 /* Supporting Files */,
@@ -156,12 +157,13 @@
 		BCD91A1C1D7678D1009646A6 /* XTAlterController */ = {
 			isa = PBXGroup;
 			children = (
-				BCD91A1D1D7678ED009646A6 /* XTAlterViewController.h */,
-				BCD91A1E1D7678ED009646A6 /* XTAlterViewController.m */,
+				BCCBF6551D77FCCF00DACEA4 /* XTAlertView.h */,
+				BCD91A1D1D7678ED009646A6 /* XTAlertViewController.h */,
+				BCD91A1E1D7678ED009646A6 /* XTAlertViewController.m */,
 				BCD91A221D76B227009646A6 /* XTCalculateHeight.h */,
 				BCD91A231D76B227009646A6 /* XTCalculateHeight.m */,
-				BCD91A2E1D76DEAD009646A6 /* XTDefaultCell.h */,
-				BCD91A2F1D76DEAD009646A6 /* XTDefaultCell.m */,
+				BCD91A2E1D76DEAD009646A6 /* XTAlterStyleView.h */,
+				BCD91A2F1D76DEAD009646A6 /* XTAlterStyleView.m */,
 			);
 			path = XTAlterController;
 			sourceTree = "<group>";
@@ -270,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD919F91D7678AB009646A6 /* LaunchScreen.storyboard in Resources */,
-				BCD91A211D769DA6009646A6 /* aaa.jpg in Resources */,
+				BCCBF6531D77CDAB00DACEA4 /* flag.png in Resources */,
 				BCD919F61D7678AB009646A6 /* Assets.xcassets in Resources */,
 				BCD919F41D7678AB009646A6 /* Main.storyboard in Resources */,
 			);
@@ -299,10 +301,10 @@
 			files = (
 				BCD919F11D7678AB009646A6 /* ViewController.m in Sources */,
 				BCD919EE1D7678AB009646A6 /* AppDelegate.m in Sources */,
-				BCD91A1F1D7678ED009646A6 /* XTAlterViewController.m in Sources */,
+				BCD91A1F1D7678ED009646A6 /* XTAlertViewController.m in Sources */,
 				BCD919EB1D7678AB009646A6 /* main.m in Sources */,
 				BCD91A241D76B227009646A6 /* XTCalculateHeight.m in Sources */,
-				BCD91A301D76DEAD009646A6 /* XTDefaultCell.m in Sources */,
+				BCD91A301D76DEAD009646A6 /* XTAlterStyleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTAlterViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlterViewController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTAlterViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlterViewController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +532,7 @@
 				BCD91A151D7678AB009646A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCD91A161D7678AB009646A6 /* Build configuration list for PBXNativeTarget "XTAlterViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				BCD91A181D7678AB009646A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCD91A191D7678AB009646A6 /* Build configuration list for PBXNativeTarget "XTAlterViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				BCD91A1B1D7678AB009646A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
