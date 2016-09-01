@@ -1,4 +1,4 @@
-## XTAlertView
+## XTAlertViewController
 
 
 preface: Meaning is to create a more versions compatible with similar to UIAlertView controls
