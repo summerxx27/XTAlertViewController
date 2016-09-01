@@ -1,8 +1,9 @@
 ## XTAlertViewController
 
 <div align=center>
-![](http://ww1.sinaimg.cn/large/e6a4355cgw1f7e5n20i3gj20n5054q3r.jpg)
+<img src="http://ww1.sinaimg.cn/large/e6a4355cgw1f7e5n20i3gj20n5054q3r.jpg"/>
 </div>
+
 preface: Meaning is to create a more versions compatible with similar to UIAlertView controls
 pic example:
 <table border="1">
