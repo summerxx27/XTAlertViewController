@@ -36,7 +36,7 @@ Gif example:
 ### Cocoapods
 - Add `pod 'XTAlertViewController', '~> 1.0.1'` to your Podfile
 - Run `pod install` or pod update --no-repo-update
-- import <XTAlertView.h>
+- `import <XTAlertView.h>`
 
 #### Usage
 ```objectivec
