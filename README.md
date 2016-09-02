@@ -32,6 +32,7 @@ Gif example:
 ### Features
 
 - Provide the expansion of the more interesting and powerful features
+
 ### Cocoapods
 - Add `pod 'XTAlertViewController', '~> 1.0.1'` to your Podfile
 - Run `pod install` or pod update --no-repo-update
