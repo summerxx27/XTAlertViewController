@@ -1,0 +1,2 @@
+target 'XTAlertDemo'
+pod 'XTAlertViewController', '~> 1.0.1'

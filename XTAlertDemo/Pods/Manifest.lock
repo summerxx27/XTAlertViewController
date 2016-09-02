@@ -1,0 +1,12 @@
+PODS:
+  - XTAlertViewController (1.0.1)
+
+DEPENDENCIES:
+  - XTAlertViewController (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  XTAlertViewController: 578cf12e607bb7714445280e01a5f09f5128196e
+
+PODFILE CHECKSUM: 498954f9ba0bac8e675c7c216c52c1c2a0d79dcd
+
+COCOAPODS: 1.1.0.beta.1

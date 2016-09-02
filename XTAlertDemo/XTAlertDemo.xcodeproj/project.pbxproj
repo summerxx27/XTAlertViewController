@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7764F52C6E83FDD40EC01ADF /* libPods-XTAlertDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475C21EB97815D83A31CCFEB /* libPods-XTAlertDemo.a */; };
+		BCF43FF91D7935E400C7E882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF43FF81D7935E400C7E882 /* main.m */; };
+		BCF43FFC1D7935E400C7E882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF43FFB1D7935E400C7E882 /* AppDelegate.m */; };
+		BCF43FFF1D7935E400C7E882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF43FFE1D7935E400C7E882 /* ViewController.m */; };
+		BCF440021D7935E400C7E882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF440001D7935E400C7E882 /* Main.storyboard */; };
+		BCF440041D7935E400C7E882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF440031D7935E400C7E882 /* Assets.xcassets */; };
+		BCF440071D7935E400C7E882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF440051D7935E400C7E882 /* LaunchScreen.storyboard */; };
+		BCF440121D7935E400C7E882 /* XTAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF440111D7935E400C7E882 /* XTAlertDemoTests.m */; };
+		BCF4401D1D7935E400C7E882 /* XTAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4401C1D7935E400C7E882 /* XTAlertDemoUITests.m */; };
+		BCF4402B1D79391B00C7E882 /* summerxx.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF4402A1D79391B00C7E882 /* summerxx.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF4400E1D7935E400C7E882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF43FEC1D7935E300C7E882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF43FF31D7935E300C7E882;
+			remoteInfo = XTAlertDemo;
+		};
+		BCF440191D7935E400C7E882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF43FEC1D7935E300C7E882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF43FF31D7935E300C7E882;
+			remoteInfo = XTAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		475C21EB97815D83A31CCFEB /* libPods-XTAlertDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTAlertDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF43FF41D7935E300C7E882 /* XTAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF43FF81D7935E400C7E882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF43FFA1D7935E400C7E882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCF43FFB1D7935E400C7E882 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCF43FFD1D7935E400C7E882 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCF43FFE1D7935E400C7E882 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCF440011D7935E400C7E882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF440031D7935E400C7E882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF440061D7935E400C7E882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF440081D7935E400C7E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF4400D1D7935E400C7E882 /* XTAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF440111D7935E400C7E882 /* XTAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTAlertDemoTests.m; sourceTree = "<group>"; };
+		BCF440131D7935E400C7E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF440181D7935E400C7E882 /* XTAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF4401C1D7935E400C7E882 /* XTAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTAlertDemoUITests.m; sourceTree = "<group>"; };
+		BCF4401E1D7935E400C7E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF4402A1D79391B00C7E882 /* summerxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summerxx.png; sourceTree = "<group>"; };
+		D90971CB1C30600824403390 /* Pods-XTAlertDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTAlertDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTAlertDemo/Pods-XTAlertDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3ECB87A06CB29437B0A879 /* Pods-XTAlertDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTAlertDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTAlertDemo/Pods-XTAlertDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF43FF11D7935E300C7E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7764F52C6E83FDD40EC01ADF /* libPods-XTAlertDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF4400A1D7935E400C7E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF440151D7935E400C7E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63402C51EB63D6A43604EED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				475C21EB97815D83A31CCFEB /* libPods-XTAlertDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F38655F36B6BBEFFB5B7BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D90971CB1C30600824403390 /* Pods-XTAlertDemo.debug.xcconfig */,
+				EA3ECB87A06CB29437B0A879 /* Pods-XTAlertDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCF43FEB1D7935E300C7E882 = {
+			isa = PBXGroup;
+			children = (
+				BCF43FF61D7935E400C7E882 /* XTAlertDemo */,
+				BCF440101D7935E400C7E882 /* XTAlertDemoTests */,
+				BCF4401B1D7935E400C7E882 /* XTAlertDemoUITests */,
+				BCF43FF51D7935E300C7E882 /* Products */,
+				84F38655F36B6BBEFFB5B7BD /* Pods */,
+				63402C51EB63D6A43604EED0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF43FF51D7935E300C7E882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF43FF41D7935E300C7E882 /* XTAlertDemo.app */,
+				BCF4400D1D7935E400C7E882 /* XTAlertDemoTests.xctest */,
+				BCF440181D7935E400C7E882 /* XTAlertDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF43FF61D7935E400C7E882 /* XTAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4402A1D79391B00C7E882 /* summerxx.png */,
+				BCF43FFA1D7935E400C7E882 /* AppDelegate.h */,
+				BCF43FFB1D7935E400C7E882 /* AppDelegate.m */,
+				BCF43FFD1D7935E400C7E882 /* ViewController.h */,
+				BCF43FFE1D7935E400C7E882 /* ViewController.m */,
+				BCF440001D7935E400C7E882 /* Main.storyboard */,
+				BCF440031D7935E400C7E882 /* Assets.xcassets */,
+				BCF440051D7935E400C7E882 /* LaunchScreen.storyboard */,
+				BCF440081D7935E400C7E882 /* Info.plist */,
+				BCF43FF71D7935E400C7E882 /* Supporting Files */,
+			);
+			path = XTAlertDemo;
+			sourceTree = "<group>";
+		};
+		BCF43FF71D7935E400C7E882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF43FF81D7935E400C7E882 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF440101D7935E400C7E882 /* XTAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF440111D7935E400C7E882 /* XTAlertDemoTests.m */,
+				BCF440131D7935E400C7E882 /* Info.plist */,
+			);
+			path = XTAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		BCF4401B1D7935E400C7E882 /* XTAlertDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4401C1D7935E400C7E882 /* XTAlertDemoUITests.m */,
+				BCF4401E1D7935E400C7E882 /* Info.plist */,
+			);
+			path = XTAlertDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF43FF31D7935E300C7E882 /* XTAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF440211D7935E400C7E882 /* Build configuration list for PBXNativeTarget "XTAlertDemo" */;
+			buildPhases = (
+				87A756533623C38F9FFBDD14 /* [CP] Check Pods Manifest.lock */,
+				BCF43FF01D7935E300C7E882 /* Sources */,
+				BCF43FF11D7935E300C7E882 /* Frameworks */,
+				BCF43FF21D7935E300C7E882 /* Resources */,
+				535CCAF1DE0228E7C7E89AA2 /* [CP] Embed Pods Frameworks */,
+				E2ABF39165B5B85EAAFDC389 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTAlertDemo;
+			productName = XTAlertDemo;
+			productReference = BCF43FF41D7935E300C7E882 /* XTAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF4400C1D7935E400C7E882 /* XTAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF440241D7935E400C7E882 /* Build configuration list for PBXNativeTarget "XTAlertDemoTests" */;
+			buildPhases = (
+				BCF440091D7935E400C7E882 /* Sources */,
+				BCF4400A1D7935E400C7E882 /* Frameworks */,
+				BCF4400B1D7935E400C7E882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF4400F1D7935E400C7E882 /* PBXTargetDependency */,
+			);
+			name = XTAlertDemoTests;
+			productName = XTAlertDemoTests;
+			productReference = BCF4400D1D7935E400C7E882 /* XTAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF440171D7935E400C7E882 /* XTAlertDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF440271D7935E400C7E882 /* Build configuration list for PBXNativeTarget "XTAlertDemoUITests" */;
+			buildPhases = (
+				BCF440141D7935E400C7E882 /* Sources */,
+				BCF440151D7935E400C7E882 /* Frameworks */,
+				BCF440161D7935E400C7E882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF4401A1D7935E400C7E882 /* PBXTargetDependency */,
+			);
+			name = XTAlertDemoUITests;
+			productName = XTAlertDemoUITests;
+			productReference = BCF440181D7935E400C7E882 /* XTAlertDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF43FEC1D7935E300C7E882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "夏天然后";
+				TargetAttributes = {
+					BCF43FF31D7935E300C7E882 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BCF4400C1D7935E400C7E882 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BCF43FF31D7935E300C7E882;
+					};
+					BCF440171D7935E400C7E882 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BCF43FF31D7935E300C7E882;
+					};
+				};
+			};
+			buildConfigurationList = BCF43FEF1D7935E300C7E882 /* Build configuration list for PBXProject "XTAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF43FEB1D7935E300C7E882;
+			productRefGroup = BCF43FF51D7935E300C7E882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF43FF31D7935E300C7E882 /* XTAlertDemo */,
+				BCF4400C1D7935E400C7E882 /* XTAlertDemoTests */,
+				BCF440171D7935E400C7E882 /* XTAlertDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF43FF21D7935E300C7E882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF440071D7935E400C7E882 /* LaunchScreen.storyboard in Resources */,
+				BCF4402B1D79391B00C7E882 /* summerxx.png in Resources */,
+				BCF440041D7935E400C7E882 /* Assets.xcassets in Resources */,
+				BCF440021D7935E400C7E882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF4400B1D7935E400C7E882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF440161D7935E400C7E882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535CCAF1DE0228E7C7E89AA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTAlertDemo/Pods-XTAlertDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A756533623C38F9FFBDD14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2ABF39165B5B85EAAFDC389 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTAlertDemo/Pods-XTAlertDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF43FF01D7935E300C7E882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF43FFF1D7935E400C7E882 /* ViewController.m in Sources */,
+				BCF43FFC1D7935E400C7E882 /* AppDelegate.m in Sources */,
+				BCF43FF91D7935E400C7E882 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF440091D7935E400C7E882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF440121D7935E400C7E882 /* XTAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF440141D7935E400C7E882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF4401D1D7935E400C7E882 /* XTAlertDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF4400F1D7935E400C7E882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF43FF31D7935E300C7E882 /* XTAlertDemo */;
+			targetProxy = BCF4400E1D7935E400C7E882 /* PBXContainerItemProxy */;
+		};
+		BCF4401A1D7935E400C7E882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF43FF31D7935E300C7E882 /* XTAlertDemo */;
+			targetProxy = BCF440191D7935E400C7E882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF440001D7935E400C7E882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF440011D7935E400C7E882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF440051D7935E400C7E882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF440061D7935E400C7E882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF4401F1D7935E400C7E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF440201D7935E400C7E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF440221D7935E400C7E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90971CB1C30600824403390 /* Pods-XTAlertDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlertDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCF440231D7935E400C7E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3ECB87A06CB29437B0A879 /* Pods-XTAlertDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlertDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCF440251D7935E400C7E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlertDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTAlertDemo.app/XTAlertDemo";
+			};
+			name = Debug;
+		};
+		BCF440261D7935E400C7E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlertDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTAlertDemo.app/XTAlertDemo";
+			};
+			name = Release;
+		};
+		BCF440281D7935E400C7E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XTAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlertDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTAlertDemo;
+			};
+			name = Debug;
+		};
+		BCF440291D7935E400C7E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XTAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.XTAlertDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTAlertDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF43FEF1D7935E300C7E882 /* Build configuration list for PBXProject "XTAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF4401F1D7935E400C7E882 /* Debug */,
+				BCF440201D7935E400C7E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF440211D7935E400C7E882 /* Build configuration list for PBXNativeTarget "XTAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF440221D7935E400C7E882 /* Debug */,
+				BCF440231D7935E400C7E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF440241D7935E400C7E882 /* Build configuration list for PBXNativeTarget "XTAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF440251D7935E400C7E882 /* Debug */,
+				BCF440261D7935E400C7E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF440271D7935E400C7E882 /* Build configuration list for PBXNativeTarget "XTAlertDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF440281D7935E400C7E882 /* Debug */,
+				BCF440291D7935E400C7E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF43FEC1D7935E300C7E882 /* Project object */;
+}

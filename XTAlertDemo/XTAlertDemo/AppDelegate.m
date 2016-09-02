@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  XTAlterViewController
+//  XTAlertDemo
 //
-//  Created by zjwang on 16/8/31.
+//  Created by zjwang on 16/9/2.
 //  Copyright © 2016年 夏天然后. All rights reserved.
 //
 
@@ -17,7 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor clearColor];
     return YES;
 }
 

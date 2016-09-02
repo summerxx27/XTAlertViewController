@@ -1,18 +1,18 @@
 //
-//  XTAlterViewControllerTests.m
-//  XTAlterViewControllerTests
+//  XTAlertDemoTests.m
+//  XTAlertDemoTests
 //
-//  Created by zjwang on 16/8/31.
+//  Created by zjwang on 16/9/2.
 //  Copyright © 2016年 夏天然后. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface XTAlterViewControllerTests : XCTestCase
+@interface XTAlertDemoTests : XCTestCase
 
 @end
 
-@implementation XTAlterViewControllerTests
+@implementation XTAlertDemoTests
 
 - (void)setUp {
     [super setUp];
