@@ -15,10 +15,10 @@
 #define ALERT_TABLEVIEW_HEIGHT (([UIScreen mainScreen].bounds.size.height < 568.0) ? 40.0 : 45.0)
 @interface XTAlertViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, assign) XTAlertViewControllerStyle alterStyle;
-@property (nonatomic, strong) UIView        *alterView;             //
-@property (nonatomic, strong) UIImageView   *alterImage;            //
-@property (nonatomic, strong) UILabel       *alterTitle;            //
-@property (nonatomic, strong) UILabel       *alterDes;              //
+@property (nonatomic, strong) UIView        *alterView;
+@property (nonatomic, strong) UIImageView   *alterImage;
+@property (nonatomic, strong) UILabel       *alterTitle;
+@property (nonatomic, strong) UILabel       *alterDes;             
 @property (nonatomic, strong) UITableView   *tableViewList;
 @property (nonatomic, assign) CGFloat       imageHeight;
 @property (nonatomic, assign) CGFloat       titleHeight;
