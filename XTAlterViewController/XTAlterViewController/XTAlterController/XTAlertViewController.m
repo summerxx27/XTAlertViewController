@@ -20,7 +20,6 @@
 @property (nonatomic, strong) UILabel       *alterTitle;            //
 @property (nonatomic, strong) UILabel       *alterDes;              //
 @property (nonatomic, strong) UITableView   *tableViewList;
-@property (nonatomic, strong) UIStackView   *stackView;
 @property (nonatomic, assign) CGFloat       imageHeight;
 @property (nonatomic, assign) CGFloat       titleHeight;
 @property (nonatomic, assign) CGFloat       desHeight;
@@ -68,14 +67,6 @@
         _alterDes = [[UILabel alloc] init];
     }
     return _alterDes;
-}
-- (UIStackView *)stackView
-{
-    if (_stackView == nil) {
-        _stackView = [[UIStackView alloc] init];
-        _stackView.backgroundColor = [UIColor greenColor];
-    }
-    return _stackView;
 }
 - (void)initWithImage:(NSString *)image imageHeight:(CGFloat)imageHeight title:(NSString *)title btnTitles:(NSArray *)titles des:(NSString *)des style:(XTAlertViewControllerStyle)style
 {
