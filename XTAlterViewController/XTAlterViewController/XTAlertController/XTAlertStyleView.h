@@ -13,7 +13,7 @@
 #define ALERT_TABLEVIEW_HEIGHT (([UIScreen mainScreen].bounds.size.height < 568.0) ? 40.0 : 45.0)
 typedef void(^btnClickBlock)(UIButton *btn, NSInteger tag);
 
-@interface XTAlterStyleView : UITableViewCell
+@interface XTAlertStyleView : UITableViewCell
 @property (nonatomic, strong) UIButton *btnLeft;
 @property (nonatomic, strong) UIButton *btnRight;
 @property (nonatomic, copy) btnClickBlock btnClickBlock;

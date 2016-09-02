@@ -8,7 +8,7 @@
 
 #import "XTAlertViewController.h"
 #import "XTCalculateHeight.h"
-#import "XTAlterStyleView.h"
+#import "XTAlertStyleView.h"
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define SPACE 10
@@ -131,7 +131,7 @@
     _tableViewList.rowHeight = ALERT_TABLEVIEW_HEIGHT;
     _tableViewList.separatorColor = [UIColor clearColor];
     [_tableViewList registerClass:[XTAlterDoubleCell class] forCellReuseIdentifier:@"cellID"];
-    [_tableViewList registerClass:[XTAlterStyleView class] forCellReuseIdentifier:@"cellID_Default"];
+    [_tableViewList registerClass:[XTAlertStyleView class] forCellReuseIdentifier:@"cellID_Default"];
     [_alterView addSubview:self.tableViewList];
     self.titles = titles;
     if (self.titles.count > 0) {
@@ -172,7 +172,7 @@
     switch (self.alterStyle) {
         case AlterDefault: {
             {
-                XTAlterStyleView *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID_Default"];
+                XTAlertStyleView *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID_Default"];
                 [cell.btnLeft setTitle:self.titles.firstObject forState:UIControlStateNormal];
                 [cell.btnRight setTitle:self.titles.lastObject forState:UIControlStateNormal];
                 

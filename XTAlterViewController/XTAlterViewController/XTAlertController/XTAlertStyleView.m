@@ -6,9 +6,9 @@
 //  Copyright © 2016年 夏天然后. All rights reserved.
 //
 
-#import "XTAlterStyleView.h"
+#import "XTAlertStyleView.h"
 
-@implementation XTAlterStyleView
+@implementation XTAlertStyleView
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

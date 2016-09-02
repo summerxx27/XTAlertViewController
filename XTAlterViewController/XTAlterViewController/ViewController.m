@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "XTAlterController/XTAlertView.h"
+#import "XTAlertController/XTAlertView.h"
 @interface ViewController ()<XTAlertControllerDelegate>
 
 @end
