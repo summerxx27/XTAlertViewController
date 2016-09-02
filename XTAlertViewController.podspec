@@ -1,4 +1,5 @@
-d::Spec.new do |s|
+#  valid spec and to remove all comments including this before submitting the sp
+Pod::Spec.new do |s|
 s.name = 'XTAlertViewController'
 s.version = '1.0.1'
 s.license = 'MIT'
