@@ -14,7 +14,7 @@
 #define SPACE 10
 #define ALERT_TABLEVIEW_HEIGHT (([UIScreen mainScreen].bounds.size.height < 568.0) ? 40.0 : 45.0)
 @interface XTAlertViewController ()<UITableViewDelegate, UITableViewDataSource>
-@property (nonatomic, assign) XTAlertViewControllerStyle alterStyle;
+@property (nonatomic, assign) XTAlertViewControllerStyle alertStyle;
 @property (nonatomic, strong) UIView        *alterView;
 @property (nonatomic, strong) UIImageView   *alterImage;
 @property (nonatomic, strong) UILabel       *alterTitle;
@@ -108,16 +108,16 @@
     [self alterSet];
     
     // `style`
-    self.alterStyle = style;
+    self.alertStyle = style;
     // `init`
-    switch (self.alterStyle) {
-        case AlterDefault: {
+    switch (self.alertStyle) {
+        case AlertDefault: {
             {
                 self.tbHeight = ALERT_TABLEVIEW_HEIGHT;
             }
             break;
         }
-        case AlterDouble: {
+        case AlertDouble: {
             {
                 self.tbHeight = ALERT_TABLEVIEW_HEIGHT * titles.count;
             }
@@ -156,12 +156,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    switch (self.alterStyle) {
-        case AlterDefault: {
+    switch (self.alertStyle) {
+        case AlertDefault: {
             return 1;
             break;
         }
-        case AlterDouble: {
+        case AlertDouble: {
             return self.titles.count;
             break;
         }
@@ -169,8 +169,8 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    switch (self.alterStyle) {
-        case AlterDefault: {
+    switch (self.alertStyle) {
+        case AlertDefault: {
             {
                 XTAlertStyleView *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID_Default"];
                 [cell.btnLeft setTitle:self.titles.firstObject forState:UIControlStateNormal];
@@ -188,7 +188,7 @@
             }
             break;
         }
-        case AlterDouble: {
+        case AlertDouble: {
             {
                 XTAlterDoubleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
                 cell.titleLabel.text = self.titles[indexPath.row];

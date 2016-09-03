@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  XTAlertDemo
 //
-//  Created by zjwang on 16/9/2.
+//  Created by Mac on 16/9/3.
 //  Copyright © 2016年 夏天然后. All rights reserved.
 //
 

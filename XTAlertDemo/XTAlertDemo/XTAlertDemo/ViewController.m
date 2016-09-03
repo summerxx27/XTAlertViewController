@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <XTAlertView.h>
+#import "XTAlertView.h"
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate, XTAlertControllerDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *lineArray;
@@ -49,7 +49,7 @@
     if (indexPath.row == 0) {
         XTAlertViewController *xt = [[XTAlertViewController alloc] init];
         // example 1
-        [xt initWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlterDefault];
+        [xt initWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDefault];
         [self presentViewController:xt animated:YES completion:^{
             
         }];
@@ -57,14 +57,14 @@
     {
         XTAlertViewController *xt = [[XTAlertViewController alloc] init];
         // example 1
-        [xt initWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"OKey"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlterDouble];
+        [xt initWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"OKey"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDouble];
         xt.delegate = self;
         [self presentViewController:xt animated:YES completion:^{
             
         }];
     }
 }
-#pragma mark - 
+#pragma mark -
 - (void)xt_alertViewControllerClickIndex:(NSInteger)buttonIndex
 {
     

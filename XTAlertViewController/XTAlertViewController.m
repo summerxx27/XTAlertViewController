@@ -108,9 +108,9 @@
     [self alterSet];
     
     // `style`
-    self.alterStyle = style;
+    self.alertStyle = style;
     // `init`
-    switch (self.alterStyle) {
+    switch (self.alertStyle) {
         case AlertDefault: {
             {
                 self.tbHeight = ALERT_TABLEVIEW_HEIGHT;
@@ -156,12 +156,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    switch (self.alterStyle) {
-        case AlterDefault: {
+    switch (self.alertStyle) {
+        case AlertDefault: {
             return 1;
             break;
         }
-        case AlterDouble: {
+        case AlertDouble: {
             return self.titles.count;
             break;
         }
@@ -170,7 +170,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     switch (self.alertStyle) {
-        case AlterDefault: {
+        case AlertDefault: {
             {
                 XTAlertStyleView *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID_Default"];
                 [cell.btnLeft setTitle:self.titles.firstObject forState:UIControlStateNormal];
