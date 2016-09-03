@@ -14,7 +14,7 @@
 #define SPACE 10
 #define ALERT_TABLEVIEW_HEIGHT (([UIScreen mainScreen].bounds.size.height < 568.0) ? 40.0 : 45.0)
 @interface XTAlertViewController ()<UITableViewDelegate, UITableViewDataSource>
-@property (nonatomic, assign) XTAlertViewControllerStyle alterStyle;
+@property (nonatomic, assign) XTAlertViewControllerStyle alertStyle;
 @property (nonatomic, strong) UIView        *alterView;
 @property (nonatomic, strong) UIImageView   *alterImage;
 @property (nonatomic, strong) UILabel       *alterTitle;
@@ -111,13 +111,13 @@
     self.alterStyle = style;
     // `init`
     switch (self.alterStyle) {
-        case AlterDefault: {
+        case AlertDefault: {
             {
                 self.tbHeight = ALERT_TABLEVIEW_HEIGHT;
             }
             break;
         }
-        case AlterDouble: {
+        case AlertDouble: {
             {
                 self.tbHeight = ALERT_TABLEVIEW_HEIGHT * titles.count;
             }
@@ -169,7 +169,7 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    switch (self.alterStyle) {
+    switch (self.alertStyle) {
         case AlterDefault: {
             {
                 XTAlertStyleView *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID_Default"];
@@ -188,7 +188,7 @@
             }
             break;
         }
-        case AlterDouble: {
+        case AlertDouble: {
             {
                 XTAlterDoubleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
                 cell.titleLabel.text = self.titles[indexPath.row];
