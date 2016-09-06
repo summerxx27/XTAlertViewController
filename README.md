@@ -41,7 +41,6 @@ Gif example:
 #### Usage
 ```objectivec
     // init obj
-    XTAlertViewController *xt = [[XTAlertViewController alloc] init];
     // Give a picture name
     // Give a picture's height
     // Give a btn's title array
