@@ -41,17 +41,14 @@ Gif example:
 #### Usage
 ```objectivec
     // init obj
-    XTAlertViewController *xt = [[XTAlertViewController alloc] init];
     // Give a picture name
     // Give a picture's height
     // Give a btn's title array
     // Give a title
     // Give a describtion
     // Give a style  two btn | double btn
-        
     // example 1
     [[XTAlertViewController new] showViewWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDefault fromVC:self];
-
     // example 2
     XTAlertViewController *xtAlert = [[XTAlertViewController alloc] init];
     [xtAlert showViewWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"Okey"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDouble fromVC:self];
