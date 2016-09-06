@@ -47,21 +47,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
-        XTAlertViewController *xt = [[XTAlertViewController alloc] init];
         // example 1
-        [xt initWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDefault];
-        [self presentViewController:xt animated:YES completion:^{
-            
-        }];
+        [[XTAlertViewController new] showViewWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDefault fromVC:self];
+        
     }else
     {
-        XTAlertViewController *xt = [[XTAlertViewController alloc] init];
-        // example 1
-        [xt initWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"OKey"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDouble];
-        xt.delegate = self;
-        [self presentViewController:xt animated:YES completion:^{
-            
-        }];
+        XTAlertViewController *xtAlert = [[XTAlertViewController alloc] init];
+        [xtAlert showViewWithImage:@"summerxx" imageHeight:188 title:@"This is an introduction" btnTitles:@[@"Cancel", @"Determine", @"Okey"] des:@"A simple and easy to use more version using the controls Copyright © 2016年 夏天然后. All rights reserved." style:AlertDouble fromVC:self];
+        xtAlert.delegate = self;
     }
 }
 #pragma mark -

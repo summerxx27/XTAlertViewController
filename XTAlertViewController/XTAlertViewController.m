@@ -68,7 +68,7 @@
     }
     return _alterDes;
 }
-- (void)initWithImage:(NSString *)image imageHeight:(CGFloat)imageHeight title:(NSString *)title btnTitles:(NSArray *)titles des:(NSString *)des style:(XTAlertViewControllerStyle)style
+- (void)showViewWithImage:(NSString *)image imageHeight:(CGFloat)imageHeight title:(NSString *)title btnTitles:(NSArray *)titles des:(NSString *)des style:(XTAlertViewControllerStyle)style fromVC:(UIViewController *)fromVC
 {
     [self.view addSubview:self.alterView];
     [_alterView addSubview:self.alterImage];
@@ -141,6 +141,9 @@
     _alterView.frame = CGRectMake(0, 0, SCREEN_WIDTH * 0.75, _tableViewList.frame.origin.y + self.tbHeight);
     _alterView.center = self.view.center;
     
+    [fromVC presentViewController:self animated:YES completion:^{
+        //
+    }];
 }
 #pragma mark -
 - (void)alterSet

@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, XTAlertViewControllerStyle)
  *  @param style       style AlterDefault | AlterDouble
  */
 @property (nonatomic, assign) id<XTAlertControllerDelegate> delegate;
-- (void)initWithImage:(NSString *)image imageHeight:(CGFloat)imageHeight title:(NSString *)title btnTitles:(NSArray *)titles des:(NSString *)des style:(XTAlertViewControllerStyle)style;
+- (void)showViewWithImage:(NSString *)image imageHeight:(CGFloat)imageHeight title:(NSString *)title btnTitles:(NSArray *)titles des:(NSString *)des style:(XTAlertViewControllerStyle)style fromVC:(UIViewController *)fromVC;
 
 
 @end
