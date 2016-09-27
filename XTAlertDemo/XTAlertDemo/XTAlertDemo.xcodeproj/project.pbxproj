@@ -448,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTAlertDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.zjw.com.XTAlertDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTAlertDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.zjw.com.XTAlertDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +532,7 @@
 				046B9DF21D7A7CEB0011D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046B9DF31D7A7CEB0011D4A5 /* Build configuration list for PBXNativeTarget "XTAlertDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +541,7 @@
 				046B9DF51D7A7CEB0011D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046B9DF61D7A7CEB0011D4A5 /* Build configuration list for PBXNativeTarget "XTAlertDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +550,7 @@
 				046B9DF81D7A7CEB0011D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

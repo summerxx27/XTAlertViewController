@@ -19,6 +19,6 @@ typedef void(^btnClickBlock)(UIButton *btn, NSInteger tag);
 @property (nonatomic, copy) btnClickBlock btnClickBlock;
 @end
 
-@interface XTAlterDoubleCell : UITableViewCell
+@interface XTAlertDoubleCell : UITableViewCell
 @property (nonatomic, strong) UILabel *titleLabel;
 @end

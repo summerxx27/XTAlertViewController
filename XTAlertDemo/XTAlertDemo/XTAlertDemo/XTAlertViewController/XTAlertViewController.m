@@ -130,7 +130,7 @@
     _tableViewList.dataSource = self;
     _tableViewList.rowHeight = ALERT_TABLEVIEW_HEIGHT;
     _tableViewList.separatorColor = [UIColor clearColor];
-    [_tableViewList registerClass:[XTAlterDoubleCell class] forCellReuseIdentifier:@"cellID"];
+    [_tableViewList registerClass:[XTAlertDoubleCell class] forCellReuseIdentifier:@"cellID"];
     [_tableViewList registerClass:[XTAlertStyleView class] forCellReuseIdentifier:@"cellID_Default"];
     [_alterView addSubview:self.tableViewList];
     self.titles = titles;
@@ -193,7 +193,7 @@
         }
         case AlertDouble: {
             {
-                XTAlterDoubleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
+                XTAlertDoubleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
                 cell.titleLabel.text = self.titles[indexPath.row];
                 cell.selectionStyle = UITableViewCellSelectionStyleNone;
                 return cell;
