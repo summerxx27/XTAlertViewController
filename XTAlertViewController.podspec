@@ -10,18 +10,6 @@ s.source = { :git => 'https://github.com/summerxx27/XTAlertViewController.git', 
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
 s.source_files = 'XTAlertViewController/*'
-
 end
 
-spec.subspec 'Tool' do |util|
-   util.source_files = 'XTAlertViewController/Tool/**/*'
-end
-
-spec.subspec 'Controller' do |controller|
-   controller.source_files = 'XTAlertViewController/Controller/**/*'
-end
-
-spec.subspec 'View' do |view|
-   view.source_files = 'XTAlertViewController/View/**/*'
-end
 
