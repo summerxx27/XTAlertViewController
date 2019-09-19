@@ -15,10 +15,10 @@
 		046B9DD61D7A7CEB0011D4A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B9DD41D7A7CEB0011D4A5 /* LaunchScreen.storyboard */; };
 		046B9DE11D7A7CEB0011D4A5 /* XTAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9DE01D7A7CEB0011D4A5 /* XTAlertDemoTests.m */; };
 		046B9DEC1D7A7CEB0011D4A5 /* XTAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9DEB1D7A7CEB0011D4A5 /* XTAlertDemoUITests.m */; };
-		046B9E011D7A7CFA0011D4A5 /* XTAlertStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9DFB1D7A7CFA0011D4A5 /* XTAlertStyleView.m */; };
-		046B9E021D7A7CFA0011D4A5 /* XTAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9DFE1D7A7CFA0011D4A5 /* XTAlertViewController.m */; };
-		046B9E031D7A7CFA0011D4A5 /* XTCalculateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B9E001D7A7CFA0011D4A5 /* XTCalculateHeight.m */; };
 		046B9E051D7A7D320011D4A5 /* summerxx.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B9E041D7A7D320011D4A5 /* summerxx.png */; };
+		68D5A89923337AE2001D0708 /* XTAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D5A89123337AE2001D0708 /* XTAlertViewController.m */; };
+		68D5A89A23337AE2001D0708 /* XTAlertStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D5A89523337AE2001D0708 /* XTAlertStyleView.m */; };
+		68D5A89B23337AE2001D0708 /* XTCalculateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D5A89723337AE2001D0708 /* XTCalculateHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +55,14 @@
 		046B9DE71D7A7CEB0011D4A5 /* XTAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046B9DEB1D7A7CEB0011D4A5 /* XTAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTAlertDemoUITests.m; sourceTree = "<group>"; };
 		046B9DED1D7A7CEB0011D4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		046B9DFA1D7A7CFA0011D4A5 /* XTAlertStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertStyleView.h; sourceTree = "<group>"; };
-		046B9DFB1D7A7CFA0011D4A5 /* XTAlertStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlertStyleView.m; sourceTree = "<group>"; };
-		046B9DFC1D7A7CFA0011D4A5 /* XTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertView.h; sourceTree = "<group>"; };
-		046B9DFD1D7A7CFA0011D4A5 /* XTAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertViewController.h; sourceTree = "<group>"; };
-		046B9DFE1D7A7CFA0011D4A5 /* XTAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlertViewController.m; sourceTree = "<group>"; };
-		046B9DFF1D7A7CFA0011D4A5 /* XTCalculateHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCalculateHeight.h; sourceTree = "<group>"; };
-		046B9E001D7A7CFA0011D4A5 /* XTCalculateHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCalculateHeight.m; sourceTree = "<group>"; };
 		046B9E041D7A7D320011D4A5 /* summerxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summerxx.png; sourceTree = "<group>"; };
+		68D5A89023337AE2001D0708 /* XTAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertViewController.h; sourceTree = "<group>"; };
+		68D5A89123337AE2001D0708 /* XTAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlertViewController.m; sourceTree = "<group>"; };
+		68D5A89223337AE2001D0708 /* XTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertView.h; sourceTree = "<group>"; };
+		68D5A89423337AE2001D0708 /* XTAlertStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAlertStyleView.h; sourceTree = "<group>"; };
+		68D5A89523337AE2001D0708 /* XTAlertStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAlertStyleView.m; sourceTree = "<group>"; };
+		68D5A89723337AE2001D0708 /* XTCalculateHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCalculateHeight.m; sourceTree = "<group>"; };
+		68D5A89823337AE2001D0708 /* XTCalculateHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCalculateHeight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		046B9DC51D7A7CEB0011D4A5 /* XTAlertDemo */ = {
 			isa = PBXGroup;
 			children = (
-				046B9DF91D7A7CFA0011D4A5 /* XTAlertViewController */,
+				68D5A88E23337AE2001D0708 /* XTAlertViewController */,
 				046B9DC91D7A7CEB0011D4A5 /* AppDelegate.h */,
 				046B9DCA1D7A7CEB0011D4A5 /* AppDelegate.m */,
 				046B9E041D7A7D320011D4A5 /* summerxx.png */,
@@ -154,18 +154,43 @@
 			path = XTAlertDemoUITests;
 			sourceTree = "<group>";
 		};
-		046B9DF91D7A7CFA0011D4A5 /* XTAlertViewController */ = {
+		68D5A88E23337AE2001D0708 /* XTAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
-				046B9DFA1D7A7CFA0011D4A5 /* XTAlertStyleView.h */,
-				046B9DFB1D7A7CFA0011D4A5 /* XTAlertStyleView.m */,
-				046B9DFC1D7A7CFA0011D4A5 /* XTAlertView.h */,
-				046B9DFD1D7A7CFA0011D4A5 /* XTAlertViewController.h */,
-				046B9DFE1D7A7CFA0011D4A5 /* XTAlertViewController.m */,
-				046B9DFF1D7A7CFA0011D4A5 /* XTCalculateHeight.h */,
-				046B9E001D7A7CFA0011D4A5 /* XTCalculateHeight.m */,
+				68D5A88F23337AE2001D0708 /* Controller */,
+				68D5A89223337AE2001D0708 /* XTAlertView.h */,
+				68D5A89323337AE2001D0708 /* View */,
+				68D5A89623337AE2001D0708 /* Tool */,
 			);
-			path = XTAlertViewController;
+			name = XTAlertViewController;
+			path = ../../../XTAlertViewController;
+			sourceTree = "<group>";
+		};
+		68D5A88F23337AE2001D0708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68D5A89023337AE2001D0708 /* XTAlertViewController.h */,
+				68D5A89123337AE2001D0708 /* XTAlertViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68D5A89323337AE2001D0708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68D5A89423337AE2001D0708 /* XTAlertStyleView.h */,
+				68D5A89523337AE2001D0708 /* XTAlertStyleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68D5A89623337AE2001D0708 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				68D5A89723337AE2001D0708 /* XTCalculateHeight.m */,
+				68D5A89823337AE2001D0708 /* XTCalculateHeight.h */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +276,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -299,12 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D5A89A23337AE2001D0708 /* XTAlertStyleView.m in Sources */,
 				046B9DCE1D7A7CEB0011D4A5 /* ViewController.m in Sources */,
-				046B9E011D7A7CFA0011D4A5 /* XTAlertStyleView.m in Sources */,
+				68D5A89923337AE2001D0708 /* XTAlertViewController.m in Sources */,
+				68D5A89B23337AE2001D0708 /* XTCalculateHeight.m in Sources */,
 				046B9DCB1D7A7CEB0011D4A5 /* AppDelegate.m in Sources */,
-				046B9E031D7A7CFA0011D4A5 /* XTCalculateHeight.m in Sources */,
 				046B9DC81D7A7CEB0011D4A5 /* main.m in Sources */,
-				046B9E021D7A7CFA0011D4A5 /* XTAlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +556,7 @@
 				046B9DF21D7A7CEB0011D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046B9DF31D7A7CEB0011D4A5 /* Build configuration list for PBXNativeTarget "XTAlertDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +565,7 @@
 				046B9DF51D7A7CEB0011D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046B9DF61D7A7CEB0011D4A5 /* Build configuration list for PBXNativeTarget "XTAlertDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +574,7 @@
 				046B9DF81D7A7CEB0011D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
