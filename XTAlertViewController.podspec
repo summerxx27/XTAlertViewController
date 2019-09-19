@@ -1,7 +1,7 @@
 #  valid spec and to remove all comments including this before submitting the sp
 Pod::Spec.new do |s|
 s.name = 'XTAlertViewController'
-s.version = '1.0.7'
+s.version = '1.1.0'
 s.license = 'MIT'
 s.summary = 'An view like UIAlertViewController on iOS.'
 s.homepage = 'https://github.com/summerxx27/XTAlertViewController'
