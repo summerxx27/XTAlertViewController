@@ -187,8 +187,8 @@
 		68D5A89623337AE2001D0708 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				68D5A89723337AE2001D0708 /* XTCalculateHeight.m */,
 				68D5A89823337AE2001D0708 /* XTCalculateHeight.h */,
+				68D5A89723337AE2001D0708 /* XTCalculateHeight.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";

@@ -9,18 +9,7 @@ s.authors = { 'summerxx27' => '1005430006@qq.com' }
 s.source = { :git => 'https://github.com/summerxx27/XTAlertViewController.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
-s.source_files = 'XTAlertViewController/XTAlertView.h'
-
-s.subspec 'Tool' do |ss|
-    	ss.source_files = 'XTAlertViewController/Tool/*.{h,m}'    		
-	end
-s.subspec 'View' do |view|
-    	view.source_files = 'XTAlertViewController/View/*.{h,m}'    	
-	end
-s.subspec 'Controller' do |c|
-    	c.source_files = 'XTAlertViewController/Controller/*.{h,m}'    	
-	end
-
+s.source_files = 'XTAlertViewController/*.{h.m}'
 end
 
 
