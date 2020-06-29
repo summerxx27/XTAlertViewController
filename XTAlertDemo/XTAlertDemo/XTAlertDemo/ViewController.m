@@ -31,7 +31,12 @@
     self.lineArray = @[@"Show Default Alert", @"Show Double Alert"];
     
     
-    // 随便修改一下
+    UIView *v;// 随便修改一下
+    UIView *v;// 随便修改一下
+    UIView *v;// 随便修改一下
+    UIView *v;// 随便修改一下
+    UIView *v;// 随便修改一下
+    UIView *v;// 随便修改一下
     UIView *v;
     
 }
