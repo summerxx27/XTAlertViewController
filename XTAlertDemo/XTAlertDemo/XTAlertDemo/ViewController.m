@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "XTAlertView.h"
+#import "XTAlertViewController.h"
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate, XTAlertControllerDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *lineArray;
@@ -29,6 +29,10 @@
     [self.view addSubview:_tableView];
     
     self.lineArray = @[@"Show Default Alert", @"Show Double Alert"];
+    
+    
+    // 随便修改一下
+    UIView *v;
     
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
