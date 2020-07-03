@@ -31,14 +31,7 @@
     self.lineArray = @[@"Show Default Alert", @"Show Double Alert"];
     
     
-    UIView *v;// 随便修改一下
-    UIView *v;// 随便修改一下
-    UIView *v;// 随便修改一下
-    UIView *v;// 随便修改一下
-    UIView *v;// 随便修改一下
-    UIView *v;// 随便修改一下
-    UIView *v;
-    UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;UIView *v;
+    /// test
     
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
